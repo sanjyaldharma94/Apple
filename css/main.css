@@ -1,0 +1,127 @@
+/* universal slector*/
+*{
+	font-family: 'Zilla Slab', serif;
+   padding:0;
+   margin:0;
+}
+nav{
+	text-align: center;
+	height: 60px;
+	width: 100%;
+	background-color: #1a1a1a;
+}
+nav > ul{
+	font-size: 18px;
+	font-weight: 200;
+}
+nav > ul >li{
+	text-align: center;
+	display: inline-block;
+	padding: 25px;
+	margin-bottom:3%;
+}
+nav > ul >li >a{
+	color: white;
+	text-decoration: none;
+}
+header{
+	text-align: center;
+	height: 550px;
+}
+h1{
+	font-size: 42px;
+	font-weight: 900;
+	word-spacing: 8px;
+}
+h2{
+	margin-top:15px;
+	line-height: 30px;
+}
+.features{
+	height: 315px;
+	text-align: center;
+}
+  .box1 {
+  float: left;
+  width: 25%;
+}
+.box2 {
+  float: left;
+  width: 25%;
+}
+.box3 {
+  float: left;
+  width: 25%;
+}
+.box4 {
+  float: left;
+  width: 25%;
+}
+.features .h3{
+	text-align: center;
+}
+.info{
+height: 300px;
+width: 100%;
+margin:0 150px;
+
+}
+.info > div{
+	vertical-align: top;
+	margin: 0 5px;
+	position: relative;
+	padding:0 45px 0 0;
+	display: inline-block;
+	font-size: 14px;
+}
+.info .edu{
+	vertical-align: top;
+}
+.info ul{
+	list-style: none;
+	line-height: 25px;
+}
+.info > div > ul > li > a {
+	text-decoration: none;
+	color: grey;
+}
+.info > div > ul > li > a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.footer-left{
+	width: 80%;
+	margin:0 auto;
+}
+footer{
+	width: 80%;
+	margin:0 auto;
+}
+footer > div{
+	display: inline-block;
+	vertical-align: top;
+}
+button{
+	border: 1px solid transparent;
+	padding: 0 10px 0 0;
+	border-right: 1px solid black;
+}
+button:hover{
+	text-decoration: underline;
+}
+footer .button-group{
+	margin: 0 5%;
+	font-size: 14px;
+}
+.flag img{
+border-radius: 18px;
+height: 25px;
+width: 25px;
+}
+.flag > a{
+	vertical-align: top;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 10px 10px 0 10px;
+   
+}
