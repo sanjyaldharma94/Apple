@@ -77,6 +77,23 @@ margin:0 150px;
 .info .edu{
 	vertical-align: top;
 }
+.Education >ul > li > a{
+text-decoration: none;
+color: grey;
+
+}
+.business > ul >li > a{
+	text-decoration: none;
+	color: grey;
+} 
+.personal > ul > li > a{
+	text-decoration: none;
+	color: grey;
+}
+.values > ul > li > a{
+	text-decoration: none;
+	color: grey;
+}
 .info ul{
 	list-style: none;
 	line-height: 25px;
