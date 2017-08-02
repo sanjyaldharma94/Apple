@@ -4,6 +4,13 @@
    padding:0;
    margin:0;
 }
+body{
+	margin:0;
+}
+.navbar{
+	margin:0;
+}
+/*
 nav{
 	text-align: center;
 	height: 60px;
@@ -23,8 +30,9 @@ nav > ul >li{
 nav > ul >li >a{
 	color: white;
 	text-decoration: none;
-}
+}*/
 header{
+	padding-bottom: 15px;
 	text-align: center;
 	height: 550px;
 }
@@ -36,6 +44,13 @@ h1{
 h2{
 	margin-top:15px;
 	line-height: 30px;
+}
+header img{
+	height: 400px
+}
+.container{
+	margin-top: 35px
+	padding: 15px 0 15px 0;
 }
 .features{
 	height: 315px;
@@ -60,6 +75,7 @@ h2{
 .features .h3{
 	text-align: center;
 }
+/*
 .info{
 height: 300px;
 width: 100%;
@@ -74,6 +90,7 @@ margin:0 150px;
 	display: inline-block;
 	font-size: 14px;
 }
+*/
 .info .edu{
 	vertical-align: top;
 }
@@ -85,7 +102,7 @@ color: grey;
 .business > ul >li > a{
 	text-decoration: none;
 	color: grey;
-} 
+}
 .personal > ul > li > a{
 	text-decoration: none;
 	color: grey;
@@ -140,5 +157,5 @@ width: 25px;
 	text-decoration: none;
 	font-size: 12px;
 	margin: 10px 10px 0 10px;
-   
+
 }

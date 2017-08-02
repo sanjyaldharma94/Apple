@@ -18,13 +18,13 @@
            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- bootstrap file-->
       <link href="css/bootstrap.css" rel="stylesheet">
-       <link href="js/bootstrap.js" rel="stylesheet">
     <!--google fonts-->
       <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
       <!-- to customize webpage in css-->
         <link rel="stylesheet" href="css/main.css">
     </head>
       <body>
+        <!--
          <nav class="animated bounceIn">
            <ul>
               <li><a href="#"><i class="fa fa-bars"></i></a></li>
@@ -39,35 +39,69 @@
                 <li><a href="#"><i class="fa fa-search"></i></a></li>
                 <li><a href="#"><i class="fa fa-briefcase"></i></a></li>
             </ul>
-            </nav>
+          </nav>-->
+          <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-apple"></i></a></li>
+         <li><a href="https://www.apple.com/mac/">Mac</a></li>
+         <li><a href="https://www.apple.com/ipad/">iPad</a></li>
+         <li><a href="https://www.apple.com/iphone/">iPhone</a></li>
+         <li><a href="https://www.apple.com/watch/">Watch</a></li>
+         <li><a href="https://www.apple.com/tv/">TV</a></li>
+         <li><a href="https://www.apple.com/music/">Music</a></li>
+         <li><a href="https://support.apple.com/">Support</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-search"></i></a></li>
+        <li><a href="#"><i class="fa fa-briefcase"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
           <header>
              <h1>iPad Pro</h1>
              <h2>Anything you can do,<br>you can do better.</h2>
-            <img src="img/ipad.png" height="400px" width="900px" alt="ipadpro">
+            <img src="img/ipad.png" class="img-responsive" alt="ipadpro" height="400" width="80%">
           </header>
-               <div class="features">
-                <div class="box1">
+
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
                   <h3>Buy a Mac or iPad Pro for<br> college. Get Beats.</h3>
                   <img src="img/macbook.png" height="200px" width="300px" alt="mac">
                 </div>
-                 <div class="box2">
+                <div class="col-md-3">
                   <h3>iMac</h3>
                    <p>The vision is brighter than ever.</p>
                    <img src="img/desktop.png" height="200px" width="300px" alt="imac">
                   </div>
-                  <div class="box3">
+                <div class="col-md-3">
                   <h3>Summer Casual</h3>
                    <p>Shop Accessories</p>
                    <img src="img/accessories.png" height="200px" width="300px" alt="cases">
                   </div>
-                <div class="box4">
+              <div class="col-md-3">
                   <h3>Why Switch</h3>
                   <p>Life is easier on iPhone</p>
                   <img src="img/iphone.png" height="200px" width="300px" alt="iphone">
                 </div>
               </div>
-            <div class="info">
-             <div class="shop">
+            </div>
+
+
+            <div class="container info">
+             <div class=" col-md-2 shop">
               <h4>Shop and Learn</h4>
                <ul>
                 <li><a href="#">Mac</a></li>
@@ -83,7 +117,7 @@
                 <li><a href="#">Gift Cards</a></li>
               </ul>
               </div>
-               <div class="store">
+               <div class="col-md-2 store">
                 <h4>Apple Store</h4>
                   <ul>
                      <li><a href="#">Find a store</a></li>
@@ -99,7 +133,7 @@
                 <li><a href="#">Shopping Help</a></li>
               </ul>
               </div>
-              <div class="edu">
+              <div class="col-md-3 edu">
                <div class="Education">
                 <h4>For Education</h4>
                  <ul>
@@ -115,7 +149,7 @@
                 </ul>
               </div>
            </div>
-                 <div class="account">
+                 <div class="col-md-3 account">
               <div class="personal">
                 <h4>Account</h4>
                  <ul>
@@ -136,7 +170,7 @@
                   </ul>
                 </div>
                </div>
-                <div class="about"> 
+                <div class="col-md-2 about">
                   <h4>About Apple</h4>
                    <ul>
                      <li><a href="#">Newsroom</a></li>
@@ -149,13 +183,13 @@
                    </div>
                    </div>
 
-                
+
                     <div class="footer-left">
                    <p>More ways to shop: Visit an <a href="#">Apple Store,</a> call 1-800-MY-APPLE, or <a href="#"> find a reseller.</a></p>
                    <hr>
                      </div>
         <footer>
-            
+
                     <div class="copyright">
               <p>Copyright &copy; 2017 Apple Inc. All rights reserved.</p></div>
                <div class="button-group">
@@ -169,10 +203,12 @@
                    <img src="img/flag.png" height="50px" width="75px" alt="flag">
                    <a href="#">United States</a>
                    </div>
-                
-                  
+
+
               </footer>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
     </body>
  </html>
