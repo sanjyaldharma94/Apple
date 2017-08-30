@@ -48,30 +48,17 @@ h2{
 header img{
 	height: 400px
 }
+#images {
+	padding: 45px 0;
+}
+#images div {
+	padding: 0 20px;
+}
 .container{
 	margin-top: 35px
 	padding: 15px 0 15px 0;
 }
-.features{
-	height: 315px;
-	text-align: center;
-}
-  .box1 {
-  float: left;
-  width: 25%;
-}
-.box2 {
-  float: left;
-  width: 25%;
-}
-.box3 {
-  float: left;
-  width: 25%;
-}
-.box4 {
-  float: left;
-  width: 25%;
-}
+
 .features .h3{
 	text-align: center;
 }
